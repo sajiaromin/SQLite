@@ -4,4 +4,5 @@
     <item android:id="@+id/go_to_songs_act" android:title="Songs"></item>
     <item android:id="@+id/go_to_albums_act" android:title="Albums"></item>
     <item android:id="@+id/add_to_queue_act" android:title="Queue" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/add_act" android:title="Add Song"></item>
 </menu>

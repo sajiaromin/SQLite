@@ -58,6 +58,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.add_act -> {
+                val intent = Intent(this, AddSongsActivity::class.java )
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
 
